@@ -7,6 +7,7 @@
       background: repeating-linear-gradient(black, black 20px, white 20px, white 25px);
       text-align: center;
       font-size: 1.5em;
+      overflow: hidden;
     }
     h1 a {
       color: white;
@@ -16,12 +17,19 @@
       color: black;
     }
     img {
-      background-color: rgba(360,360,360,.9);
+      background-color: white;
+      height = 100vh;
     }
-  </style>
+  </style><!--
+Testing soon to be implemented
+  <script>
+    window.onload = function() {
+      const myImg = document.getElementById("myImg");
+      myImg.style.
+  </script>-->
 </head>
 <body>
-  <img src="graphicDesign.svg">
+  <img id="myImg" src="graphicDesign.svg">
   <h1><a href="tel:8476120483">Call for more information</a></h1>
 </body>
 </html>
